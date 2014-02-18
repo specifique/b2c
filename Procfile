@@ -1,1 +1,1 @@
-web: node static.js
+web: node mockups.js
