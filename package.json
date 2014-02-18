@@ -1,0 +1,8 @@
+{
+  "name": "Break2Connect",
+  "description": "Awesome stuff.",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~3.4.8"
+  }
+}
