@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link href="bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="style.css">
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
@@ -23,7 +26,45 @@
     </nav>
 
     <div class="container">
-      Profile
+
+      <div class="row col-12 avatar text-center">
+        <img class="avatar-image img-circle" src="http://www.catster.com/files/original.jpg" alt="Idea avatar" />
+      </div>
+
+      <div class="row col-12 requirements">
+        <h1>My Ideas</h1>
+        <ul class="requirements-list">
+          <li>Break2Connect<img class="delete-icon" src="images/delete.png"></li>
+          <li>Map all Minds<img class="delete-icon" src="images/delete.png"></li>
+          <li>The Parking Tool<img class="delete-icon" src="images/delete.png"></li>
+        </ul>
+        <ul class="text-center">
+          <a class="button-plus glyphicon glyphicon-plus"></a>
+        </ul>
+
+      </div>
+
+      <div class="row col-12 requirements">
+        <h2>My Interests</h2>
+        <ul class="requirements-list">
+          <li>Rocket science<img class="delete-icon" src="images/delete.png"></li>
+          <li>Social media<img class="delete-icon" src="images/delete.png"></li>
+          <li>Networking<img class="delete-icon" src="images/delete.png"></li>
+        </ul>
+        <ul class="text-center">
+          <a class="button-plus glyphicon glyphicon-plus"></a>
+        </ul>
+
+        <h2>My Capabilities</h2>
+        <ul class="requirements-list">
+          <li>C++ programming<img class="delete-icon" src="images/delete.png">></li>
+          <li>Graphical design<img class="delete-icon" src="images/delete.png"></li>
+        </ul>
+        <ul class="text-center">
+          <a class="button-plus glyphicon glyphicon-plus"></a>
+        </ul>
+      </div>
+
     </div>
   </body>
 </html>
