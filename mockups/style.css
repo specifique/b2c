@@ -75,3 +75,28 @@ h2 {
   height: 1.2em;
   width: 1.2em;
 }
+
+.delete-icon {
+  float: right;
+  height: 1.2em;
+  width: 1.2em;
+}
+
+/**
+ * Navigation
+ */
+.navigation {
+  width: 100%;
+  margin:0;
+  padding: 0.2em 1em 0em 1em;
+  box-shadow: inset 0px -4px 4px #ddd;
+}
+
+.navigation-button {
+  font-size: 1.2em;
+  color: inherit;
+}
+.navigation-button:hover,
+.navigation-button:active {
+   text-decoration: none;
+}
