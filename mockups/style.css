@@ -97,6 +97,15 @@ h2 {
   color: inherit;
 }
 .navigation-button:hover,
-.navigation-button:active {
+.navigation-button:active,
+.navigation-button:visited {
    text-decoration: none;
+}
+
+/**
+ * List of matches
+ */
+
+.matches-list .btn {
+  margin: -0.3em 0 0 0.4em;
 }
