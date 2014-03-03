@@ -106,6 +106,46 @@ h2 {
  * List of matches
  */
 
-.matches-list .btn {
+.options-list .btn {
   margin: -0.3em 0 0 0.4em;
 }
+
+/**
+ * Praatwolkjes
+ */
+.bubble-you,
+.bubble-other {
+  width: 70%;
+  padding: 0.5em 0.8em;
+  border-radius: 0.8em;
+  margin-bottom: 1em;
+}
+
+.bubble-you {
+  margin-left: 30%;
+  background-color: #d8ffd8;
+}
+
+.bubble-other {
+  background-color: #eee;
+}
+
+.big-button {
+  font-size: 1.3em;
+  padding: 1.2em 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
